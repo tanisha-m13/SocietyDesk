@@ -1,0 +1,36 @@
+# Maven build artifacts
+target/
+*.war
+*.jar
+*.class
+
+# Embedded Tomcat temp directories
+tomcat.*/
+tomcat/
+
+# Log files
+*.log
+logs/
+
+# IDE / Editor folders
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# File uploads / temporary local storage
+src/main/webapp/uploads/*
+!src/main/webapp/uploads/.gitkeep
+
+# Sensitive Database Configuration (Do not commit real passwords)
+src/main/resources/db.properties
+
+# Local tooling & telemetry
+.github/
